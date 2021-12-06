@@ -5,4 +5,4 @@ total_numbers = 49
 
 combinations = factorial(total_numbers) / factorial(numbers) * factorial(total_numbers - numbers)
 
-print(f"Liczba kombinacji: {1 / combinations}")
+print(f"Number of lotto combinations: {1 / combinations}")

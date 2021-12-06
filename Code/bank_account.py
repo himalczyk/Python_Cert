@@ -1,7 +1,7 @@
-interest_level = int(input("Oprocentowanie: \n"))
-investment_years = int(input("Lata na lokacie: \n"))
-deposit_sum = int(input("Wprowadz kwote: \n"))
+interest_level = int(input("Interest: \n"))
+investment_years = int(input("Years in deposit: \n"))
+deposit_sum = int(input("Provide the sum: \n"))
 
 total_deposit = deposit_sum * ((1 + interest_level/100) ** investment_years)
 
-print(f"Suma na lokacie po {investment_years} latach to: {total_deposit}")
+print(f"The sum in the deposit after {investment_years} years is: {total_deposit}")
