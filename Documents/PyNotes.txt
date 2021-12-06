@@ -1,0 +1,17 @@
+Create Virtual Env command:
+```
+python -m venv venv
+```
+Activate virtual env, needs to be done each time opening a new  terminal sessions
+```
+venv\Scripts\activate
+```
+Install flask:
+```
+pip install flask
+```
+Create a new folder command:
+```
+mkdir <folder_name>
+```
+
