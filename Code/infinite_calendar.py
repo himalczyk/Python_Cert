@@ -12,6 +12,6 @@ if month < 3:
     
 calculate_day_of_the_week = (int(23*month/9) + day + 4 + year + int(z/4) - int(z/100) + int(z/400) - c) %7
 
-day_of_the_week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+day_of_the_week = ('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat')
     
-print(f"{calculate_day_of_the_week} = {day_of_the_week[calculate_day_of_the_week]}")
+print(f"Date: {day}{month}{year} = {day_of_the_week[calculate_day_of_the_week]}")
