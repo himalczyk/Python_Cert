@@ -19,4 +19,3 @@ def get_day_name(date, sep = '-'): # format: YYYY-MM-dd
 year, month, day = get_day_name(input("Provide date in format YYYY-MM-DD: \n"))
 day_index = day_index(year, month, day)
 day_name(day_index)
-
