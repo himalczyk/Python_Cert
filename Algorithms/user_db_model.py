@@ -11,10 +11,10 @@ record1 = {"name" : "Grazyna", "last_name" : "Kula", "address" : "Wroclaw", "gen
 record2 = {"name" : "Jan", "last_name" : "Kowalski", "address" : "Warszawa", "gender" : True, "age" : 25}
 record3 = {"name" : "Grazyna", "last_name" : "Kula", "address" : "Wroclaw", "gender" : False, "age" : 50}
 record4 = {"name": "Bartłomiej", "last_name": "Nowak", "address": "Kopydłów", "gender": True, "age": 23}
-record5 = {"name" : "Anna", "lastName" : "Kot" , "address" : "Katowice" , "gender" : False, "age" : 38}
-record6 = {"name": "Paweł", "lastName":"Jarosiński", "address":"Warszawa", "gender": True, "age": 47}
+record5 = {"name" : "Anna", "last_name" : "Kot" , "address" : "Katowice" , "gender" : False, "age" : 38}
+record6 = {"name": "Paweł", "last_name":"Jarosiński", "address":"Warszawa", "gender": True, "age": 47}
 record7 = {"name" : "Maciej", "last_name" : "Urbanski", "address" : "Lipowa", "gender" : True, "age" : 44}
-record8 = {"name" : "Alojzy", "lastName" : "Popiołek", "address" : "Białystok", "gender" : True, "age" : 36}
+record8 = {"name" : "Alojzy", "last_name" : "Popiołek", "address" : "Białystok", "gender" : True, "age" : 36}
 
 db_table = [record0, record1, record2, record3, record4, record5, record6, record7, record8]
 
