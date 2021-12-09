@@ -1,6 +1,6 @@
 import datetime
 
-class User():
+class Person():
     
     def __init__(self, first_name: str, last_name: str, gender: bool, year_birth: int):
         self.set_first_name(first_name)
@@ -18,7 +18,6 @@ class User():
         if first_name.isalnum():
             self.__first_name = first_name
         else:
-            self.__first_name = 'anonim'
             print('First Name cannot be empty')
     
     def get_first_name(self):
@@ -28,7 +27,6 @@ class User():
         if last_name.isalnum():
             self.__last_name = last_name
         else:
-            self.__last_name = 'anonim'
             print('Last Name cannot be empty')
             
     def get_last_name(self):
@@ -49,17 +47,11 @@ class User():
     def get_year_birth(self):
         return self.__year_birth
     
-    first_name = property(get_first_name, set_first_name)
-    last_name = property(get_last_name, set_last_name)
-    gender = property(get_gender, set_gender)
-    year_birth = property(get_year_birth, set_year_birth)
-    
-person1 = User('Dawid', 'Michalczyk', True, 1995)
+person1 = Person('Dawid', 'Michalczyk', True, 1995)
 # print(person1)
 # print(person2)
 # setattr(person2, "year_birth", 1990)
 # setattr(person1, "year_birth", 2022)
 # print(person1)
 # print(person2)
-person1.first_name = ""
 print(person1)
